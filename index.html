@@ -9,50 +9,199 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assetes/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js" type="module" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
-
-
-        <nav>
-            <p>
-
-            </p>
-            <ul>
-                <form action="">
-                    <a href="">
-                        <li></li>
-                    </a>
-                    <a href="">
-                        <li></li>
-                    </a>
-                    <a href="">
-                        <li></li>
-                    </a>
-                    <a href="">
-                        <li></li>
-                    </a>
-                    <a href="">
-                        <li></li>
-                    </a>
-                </form>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="nav-link active" aria-current="page" href="index.html">LOGO</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="">Team</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="">Work</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <h2></h2>
-        <p></p>
-        <input type="text">
-        <div><i class="fa-brands fa-facebook"></i>
+        <div id="slider">
+            <div id="prev"><i class="fa-solid fa-chevron-left"></i></div>
+            <div id="next"><i class="fa-solid fa-chevron-right"></i></div>
+            <img src="" alt="">
+            <div class="absolute">
+                <h2>Start something that matters</h2>
+                <p>Stop wasting valuable time with projects that just isn't you</p>
+                <input type="text" placeholder="Learn more and start today">
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-snapchat"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+                <div class="detail">
+                    <img src="./assets/img/desktop-solid.svg" alt="">
+                    <h3>responsive</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eius quo sapiente velit unde,
+                        vel mollitia asperiores impedit</p>
+                </div>
+                <div class="detail">
+                    <img src="./assets/img/heart-solid.svg" alt="">
+                    <h3>Passion</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eius quo sapiente velit unde,
+                        vel mollitia asperiores impedit</p>
+                </div>
+                <div class="detail">
+                    <img src="./assets/img/gem-regular.svg" alt="">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eius quo sapiente velit unde,
+                        vel mollitia asperiores impedit</p>
+                </div>
+               
+                <div class="detail">
+                    <img src="./assets/img/gear-solid.svg" alt="">
+                    <h3>Support</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eius quo sapiente velit unde,
+                        vel mollitia asperiores impedit</p>
+                </div>
+        </section>
+        <section id="phoneBuild">
+            <h3>We know design.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit unde esse voluptate <br>voluptatum quas explicabo est placeat quasi voluptates sequi cupiditate!<br> Porro illo iste non ipsam?</p>
+            <a href="#work"><i class="fa-solid fa-table-cells"></i> View Our Works</a>
+            <img src="./assets/img/phone_buildings.jpg" alt="">
+        </section>
+        <section id="team">
+              <div class="worker">  <h2>THE TEAM</h2>
+                <p>The one who runs the company</p></div>
+            <div class="teamMember">
+                <div class="card">
+                    <img src="./assets/img/team2.jpg" alt="" class="cardImg">
+                    <h3>John doe</h3>
+                    <h4>CEO & Founder</h4>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <button>Contact</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/team1.jpg" alt="" class="cardImg">
+                    <h3>Jane doe</h3>
+                    <h4>Architect</h4>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <button>Contact</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/team3.jpg" alt="" class="cardImg">
+                    <h3>Mike Ross</h3>
+                    <h4>Architect</h4>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <button>Contact</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/team4.jpg" alt="" class="cardImg">
+                    <h3>Dan Star</h3>
+                    <h4>Architect</h4>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <button>Contact</button>
+                </div>
+            </div>
+            <div class="client">
+                <div class="center">
+                    <h3>14+</h3>
+                    <p>Patners</p>
+                </div>
+                <div class="center">
+                    <h3>55+</h3>
+                    <p>Project Done</p>
+                </div>
+                <div class="center">
+                    <h3>89+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="center">
+                    <h3>150+</h3>
+                    <p>Meetings</p>
+                </div>
+        </section>
+        <section id="work">
+            <div class="rendu">
+                <h2>OUR WORK</h2>
+                <p>What we've done for people</p>
+                <div class="jsImg">
+                    <div class="mini">
+                        <img src="./assets/img/tech_mic.jpg" alt="">
+                    </div>
+                    <div class="mini">
+                        <img src="./assets/img/tech_phone.jpg" alt="">
+                    </div>
+                    <div class="mini">
+                        <img src="./assets/img/tech_drone.jpg" alt="">
+                    </div>
+                    <div class="mini">
+                        <img src="./assets/img/tech_sound.jpg" alt="">
+                    </div>
+                    <div class="mini">
+                        <img src="./assets/img/tech_tablette.jpg" alt="">
+                    </div>
+                    <div class="mini">
+                        <img src="./assets/img/tech_camera.jpg" alt="">
+                    </div>
+                    <div class="mini">
+                        <img src="./assets/img/tech_typewriter.jpg" alt="">
+                    </div>
+                    <div class="mini">
+                        <img src="./assets/img/tech_tableturner.jpg" alt="">
+                    </div>
+                </div>
+                <div  id="progress">
+                    <h2>Our skills.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos explicabo dolore veniam quod illo..</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos explicabo dolore veniam quod illo..</p>
+                
+                    <h3><i class="fa-solid fa-camera"></i>Photography</h3>
+                    <div class="bars">
+                        <div id="photo">90%</div>
+                    </div>
+                    <h3><i class="fa-solid fa-laptop"></i>Web Design</h3>
+                    <div class="bars">
+                        <div id="webD">85%</div>
+                    </div>
+                    <h3><i class="fa-solid fa-image"></i>Photoshop</h3>
+                    <div class="bars">
+                        <div id="shop">75%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing"></section>
+        <section id="contact"></section>
+    </main>
+    <footer>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-snapchat"></i>
             <i class="fa-brands fa-pinterest-p"></i>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-linkedin"></i>
         </div>
-    </header>
-    <main></main>
-    <footer></footer>
+    </footer>
 </body>
 
 </html>
